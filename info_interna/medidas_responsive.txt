@@ -1,0 +1,14 @@
+
+Ancho máximo de la imagen del top:
+1346px
+
+Ancho estático de los textos verticales
+20px, total 40px
+
+Total top mínimo para la mas ancha resolución:
+1386px
++20px del scrollbar si hay
+1406px
+El resto del espacio va a los lados.
+
+En el top no hay espacio entre las columnas
