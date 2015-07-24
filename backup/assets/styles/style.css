@@ -1,0 +1,259 @@
+/* 
+    Created on : 22/Jul/2015, 11:56:36 PM
+    Author     : GAFA Development Team
+*/
+
+
+/***********
+* Contenido:
+* 
+*/
+
+/* General */
+    
+    body { margin: 0px; }
+    * { margin: 0px; font-family: 'montserratlight'; } /*fuente principal*/
+    
+    /*floats*/
+    .fleft { float: left; }
+    .fright { float: right; }
+    .clear { clear: both; }
+
+/* Textos */
+
+    strong, .bold { font-family: 'montserratbold'; } /* negritas */
+    
+    /* Alineacion */
+    .txt-align-left { text-align: left; }
+    .txt-align-center { text-align: center; }
+    .txt-align-right { text-align: right; }
+
+/* Borders */
+    
+    .border-1px-solid { border: 1px solid; }
+    .border-2px-solid { border: 2px solid; }
+    .border-10px-solid { border: 10px solid; }
+    
+
+/* Font colors, border colors & background colors */
+
+    /* Azul claro*/
+    .light-blue { color: #31A6EB; }
+    .light-blue-bg { background-color: #31A6EB; }
+    .light-blue-border { border-color: #31A6EB; }
+
+    /*Gris oscuro*/
+    .gray-dark-text { color: #333; }
+    .gray-dark-bg { background-color: #333; }
+    .gray-dark-border { border-color: #333; }
+
+/* Parallax */
+
+    .parallax-section-1 {
+        height: 684px;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url('../img/top_bg_original_size.jpg');
+    }
+
+/* Responsive */
+
+    /* Mayor a 700px ancho */
+    @media (min-width: 1406px) {        
+    }
+
+    /* Menor a 700px ancho */
+    @media (max-width: 700px) {
+    }
+
+/* Font sizes */
+    .fnt-size-10 { font-size: 10.5px; }
+    .fnt-size-11  { font-size: 11px; }
+    .fnt-size-12 { font-size: 12px; }
+    .fnt-size-14 { font-size: 14px; }
+    .fnt-size-16 { font-size: 16px; }
+    .fnt-size-18 { font-size: 18px; }
+    .fnt-size-20 { font-size: 20px; }
+    .fnt-size-22 { font-size: 22px; }
+    .fnt-size-24 { font-size: 24px; }
+    .fnt-size-26 { font-size: 26px; }
+    .fnt-size-28 { font-size: 28px; }
+    .fnt-size-30 { font-size: 30px; }
+
+/* Spacings */
+    
+    /* Paddings */
+
+        /*top*/
+        .pad-top-5 { padding-top: 5px; }
+        .pad-top-10 { padding-top: 10px; }
+        .pad-top-15 { padding-top: 15px; }
+
+        /*left*/
+        .pad-left-5 { padding-left: 5px; }
+        .pad-left-10 { padding-left: 10px; }
+        .pad-left-15 { padding-left: 15px; }
+
+        /* all */
+        .pad-all-5 { padding: 5px; }
+        .pad-all-10 { padding: 10px; }
+        .pad-all-15 { padding: 15px; }
+        .pad-all-30 { padding: 30px; }
+
+    /* Margins */
+
+        /*top*/
+        .margin-top-5 { margin-top: 5px; }
+        .margin-top-10 { margin-top: 10px; }
+        .margin-top-15 { margin-top: 15px; }
+        
+        /*bottom*/
+        .margin-bottom-5 { margin-bottom: 5px; }
+        .margin-bottom-10 { margin-bottom: 10px; }
+        .margin-bottom-15 { margin-bottom: 15px; }
+        .margin-bottom-20 { margin-bottom: 20px; }
+
+        /*left*/
+        .margin-left-5 { margin-left: 5px; }
+        .margin-left-10 { margin-left: 10px; }
+        .margin-left-15 { margin-left: 15px; }
+
+        /*right*/
+        .margin-right-5 { margin-right: 5px; }
+        .margin-right-10 { margin-right: 10px; }
+        .margin-right-15 { margin-right: 15px; }
+
+        /* all */
+        .margin-all-5 { margin: 5px; }
+        .margin-all-10 { margin: 10px; }
+        .margin-all-15 { margin: 15px; }        
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { margin: 0px; }
+h1 { font-size: 35px; }
+h2 { font-size: 30px; }
+h3 { font-size: 25px; }
+h4 { font-size: 20px; }
+h5 { font-size: 15px; }
+h6 { font-size: 10px; }
+
+
+/* Rotacion elementos */
+    .vertical_up { 
+        -webkit-transform: rotate(90deg); /* Safari */
+        -moz-transform: rotate(90deg); /* Firefox */
+        -ms-transform: rotate(90deg); /* IE */
+        -o-transform: rotate(90deg); /* Opera */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); /* Internet Explorer */
+    }
+    .vertical_down {
+        -webkit-transform: rotate(-90deg); /* Safari */
+        -moz-transform: rotate(-90deg); /* Firefox */
+        -ms-transform: rotate(-90deg); /* IE */
+        -o-transform: rotate(-90deg); /* Opera */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+    }
+
+/* Tablas */
+    table { margin:0px; }
+    th, td { margin:0px; padding:0px; }
+
+
+/* Fonts */
+    @font-face {
+        font-family: 'montserratlight';
+        src: url('../fonts/montserrat-light-webfont.eot');
+        src: url('../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+             url('../fonts/montserrat-light-webfont.woff') format('woff'),
+             url('../fonts/montserrat-light-webfont.ttf') format('truetype'),
+             url('../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'montserratbold';
+        src: url('../fonts/montserrat-bold-webfont.eot');
+        src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+             url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+             url('../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+             url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+
+
+    /* main */
+    main { width: 1236px; margin: 0 auto; }
+
+/*********************/
+/* Terminan defaults */
+/*********************/
+
+/* <header> */
+    header { 
+        width: 1386px;
+        margin: 0 auto;
+    }
+    header .side { width: 20px; height:100vh; }
+    header .center { width: 1346px; position: relative; }
+    /* dentro del centro */
+        
+        /* logo */
+        .menu_logo { width: 228px; height: 229px; background: url('../img/menu_logo.png') no-repeat; position:absolute; top:0px; left: 0px; }
+
+        /* botones der. */
+        header .item { width: 53px; height: 53px; }
+        header .item:not(:first-child) { border-top: 1px solid #fff; }
+        
+        header .item.menu_trigger { background: url('../img/menu_trigger.jpg'); }
+        header .item.menu_donar { background: url('../img/menu_donar.jpg'); }
+        header .item.menu_email { background: url('../img/menu_email.jpg'); }
+
+        /* texto sobre parallax */
+        header .heading { position: relative; top:200px; }
+        header .heading h1 { letter-spacing: 8px; }
+        header .heading p { letter-spacing: 6px; }
+
+/* <main> */
+
+    /* #top */
+    #top table td p {
+        font-size: 11px;
+        text-align: center;
+        padding: 10px;
+        border: 2px solid #000;
+    }
+    #top table td .current {
+        background-color: #31A6EB;
+        border: 2px solid #31A6EB;
+    }
+
+    /* main izq */
+    main .izq { width:540px; float: left; }   
+    main .izq div.bloque-alto { 
+        border:20px solid #000; 
+        padding:35px 45px;
+    }
+
+    /* main der */
+    main .der { width:400px; float: left; }
+
+    /* Hasta aquí me quedé - Esaul */
+
+
+/* <footer> */
+
+
+
+
+
+
+
+

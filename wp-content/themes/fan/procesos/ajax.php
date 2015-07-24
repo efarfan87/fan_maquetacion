@@ -1,0 +1,5 @@
+<?php
+/*FUNCIONES EXCLUSIVAS DE AJAX*/
+
+
+?>

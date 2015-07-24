@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>::FAN::</title>
+
+
+	<link rel="stylesheet" href="assets/styles/style.css">
+
+	<link rel="stylesheet" href="assets/styles/font-awesome.css"><!--fontawesome-->
+
+	<!-- facebook opengraph meta -->
+
+	
+	<!--js al final es mas rápido-->
+
+</head>
+<body>
+
+	
+	<header>
+			
+		<div class="fleft side" style="position:relative;">
+			<!--texto izq. vertical -->
+		</div>
+
+		<!--parallax-menu block-->
+		<div class="fleft center">
+
+			<div class="parallax-section-1">
+
+				<div class="menu_logo"></div> <!-- menu logo -->
+				
+				<!-- botones derecha -->
+				<div class="fright">
+					<div class="menu_trigger item"></div>
+					<div class="menu_donar item"></div>
+					<div class="menu_email item"></div>
+				</div>
+				<div class="clear"></div>
+				
+				<!--texto header-->
+				<div class="heading">
+					<h1 align="center">TU ERES TU <strong>ROCA</strong></h1>
+					<p align="center" class="fnt-size-11 pad-top-10">JUNTOS, SIEMPRE JUNTOS POR LA <strong>SALUD MENTAL</strong> Y LA PREVENSÍÓN DEL <strong>SUICIDIO</strong></p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="fleft side">
+			<!--texto der. vertical -->
+		</div>
+		<div class="clear"></div>
+	
+	</header>
+
+	<main>
+
+		<!--menu bajo parallax-->
+		<div id="top">
+			<table class="pad-top-15" style="width:100%;">
+				<tr>
+					<td><p class="current">YO <strong>NECESITO AYUDA</strong></p></td>
+					<td><p>YO <strong>NECESITO AYUDA</strong></p></td>
+					<td><p>YO <strong>NECESITO AYUDA</strong></p></td>
+				</tr>
+			</table>
+		</div>
+
+
+		<!--advertising-->
+		<div class="margin-top-10 margin-bottom-20 gray-dark-bg" style="height:120px;"> </div>
+
+		<!--contenido izq.-->
+		<div class="izq">
+
+			<div class="bloque-alto">
+				
+				<h2 class="bold">¿QUÉ ES LA DEPRESIÓN?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis laboriosam eligendi provident ad rem reprehenderit, debitis exercitationem nihil quasi laudantium soluta aspernatur ipsa voluptatum, officia error. Repudiandae, saepe alias iure.</p>
+				<p class="fnt-size-10 pad-top-10 bold txt-align-right">TODO SOBRE LA DEPRESIÓN <i class="fa fa-chevron-right"></i></p>
+
+			</div>
+
+		</div>
+
+		<!--verticalSeparator-->
+		<div class="fleft margin-left-10 margin-right-10 gray-dark-bg" style="display:block; width:2px; height:100vh;"></div>
+		
+		<!--contenido der-->
+		<div class="der">
+
+			<!--nota-->
+			<div class="">
+				<p class="fnt-size-10">22 Sept 2015 &nbsp;/&nbsp; Fuente: Harvard University</p>
+				<h2><strong>LA DEPRESIÓN Y EL MUNDO DE LA INFORMACIÓN EN MÉXICO</strong> <i class="fa fa-external-link"></i></h2>
+				<p class="fnt-size-12"><strong>SALUD</strong></p>
+				<p class="fnt-size-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum laudantium, porro rem neque magni doloremque, sint distinctio fugit deleniti quas quam, unde rerum ipsum eum modi aut ratione molestias.</p>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+
+		<!--advertising-->
+		<div class="margin-top-10 margin-bottom-20 gray-dark-bg" style="height:120px;"> </div>
+
+	</main>
+
+	<br>
+	<br>
+	<footer>
+		<h4 class="txt-align-center"><span class="bold">LIFE</span>LINE: 078</h4>
+		<p class="fnt-size-10 txt-align-center">2233 4455 / 6677 8899</p>
+		<p class="fnt-size-10 txt-align-center">I@FUNDACIONFAN.ORG</p>
+	</footer>
+	<br>
+
+	<div class="gray-dark-bg margin-top-10" style="height:10px;"></div>
+
+	<br>
+	<br>
+	<br>
+
+<!-- js -->
+
+    <script src="assets/scripts/jquery-2.1.4.min.js"></script><!-- jQuery -->
+    <script src="assets/scripts/custom.js"></script> <!-- funciones personalizadas -->
+	<script type="text/javascript" src="assets/scripts/parallax-plugin.js"></script><!--parallax-->
+
+
+</body>
+</html>
